@@ -9,4 +9,5 @@ $(document).ready(function() {
   }
   let output = "La factorielle de " + number + " est :" + factorial(number);
   console.log(output);
+  document.getElementById('result').textContent += output;
 });
