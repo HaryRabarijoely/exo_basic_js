@@ -14,7 +14,7 @@ $(document).ready(function() {
 		}
 	}
 	for (;;) {
-		question = prompt("Tu ma soulé, vas-y fais q et taille toi");
+		question = prompt("Tu ma soulé, vas-y fais annuler et taille toi");
 		if (question === null) { return; }
 		console.log(computeAwnser(question));
 	}

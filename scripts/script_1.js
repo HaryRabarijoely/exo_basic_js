@@ -8,5 +8,6 @@ $(document).ready(function() {
     name = prompt("Salut c'est quoi ton prénom !")
   }
   let output = `Salut ${name} !`
+  console.log(output);
   document.getElementById('demo').textContent += output;
 });
